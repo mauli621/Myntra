@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    height: 58px;
+    width: 60px;
+    position: absolute;
+    top:8px;
+    left:12px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 50px;
+    
+}
+
+.navbar{
+    height:75px;
+    width:1550px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+ul{
+    
+    align-items: center;
+}
+
+input{
+    height: 33px;
+    width: 276px;
+    border: none;
+    background-color: rgb(227, 227, 235);
+    align-items: center;
+    border-radius: 4px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    text-align: center;
+}
+
+#home{
+    height: 421px;
+    width: 1550px;
+}
+
+#input{
+    display: flex;
+    justify-content: center;
+}
+
+#search{
+    visibility: hidden;
+}
+
+#fav{
+    position: absolute;
+    top:27px;
+    left:800px;
+}
+
+.men{
+    visibility: hidden;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.cart i {
+    font-size: 24px; /* adjust icon size */
+    margin-bottom: 5px; /* add space between icon and text */
+}
+  
+.cart span {
+    font-size: 16px; /* adjust text size */
+}
+  
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.profile i {
+    font-size: 24px; /* adjust icon size */
+    margin-bottom: 5px; /* add space between icon and text */
+}
+  
+.profile span {
+    font-size: 16px; /* adjust text size */
+}
+
+.wishlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.wishlist i {
+    font-size: 24px; /* adjust icon size */
+    margin-bottom: 5px; /* add space between icon and text */
+}
+  
+.wishlist span {
+    font-size: 16px; /* adjust text size */
+}
+
+#medal{
+    width: 1542px;
+    height: 154px;
+}
+
+#img{
+    height: 305px;
+    width: 1520px;
+}
+
+#img2{
+    width: 1648px;
+    height: 137px;
+}
+
+#img3{
+    height: 310px;
+    width: 1520px;
+}
+
+#img4{
+    width: 1543px;
+    height: 156px;
+}
+
+#img5{
+    height:650px;
+    width:1555px;
+}
+
+#img6{
+    height:650px;
+    width:1555px;
+}
+
+#footer{
+    height:650px;
+    width:1555px;
+}
